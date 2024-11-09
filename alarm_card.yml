@@ -1,0 +1,97 @@
+title: Alarm
+badges: []
+cards:
+  - type: vertical-stack
+    cards:
+    - type: horizontal-stack
+      cards:
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.1
+          icon: mdi:numeric-1
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.2
+          icon: mdi:numeric-2
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.3
+          icon: mdi:numeric-3
+    - type: horizontal-stack
+      cards:
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.4
+          icon: mdi:numeric-4
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.5
+          icon: mdi:numeric-5
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.6
+          icon: mdi:numeric-6
+    - type: horizontal-stack
+      cards:
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.7
+          icon: mdi:numeric-7
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.8
+          icon: mdi:numeric-8
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.9
+          icon: mdi:numeric-9
+    - type: horizontal-stack
+      cards:
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.f
+          icon: mdi:alpha-f
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.0
+          icon: mdi:numeric-0
+        - show_name: false
+          show_icon: true
+          type: button
+          tap_action:
+            action: toggle
+          entity: button.n
+          icon: mdi:alpha-n
